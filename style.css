@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* 해당 url에서 가져온 이미지를 canvas 요소의 background로 지정하고, 이미지를 반복하지 않으며, 원점의 x, y좌표값을 canvas의 center로 지정해 줌. */
+  /* background: url(https://threejsfundamentals.org/threejs/resources/images/daikanyama.jpg) no-repeat center center; */
+  /* background-size: cover 로 지정하면 이미지의 가로세로비가 요소의 가로세로비와 다르다면 이미지를 crop해버려서 최대한 크게 설정함. */
+  /* background-size: cover; */
+}
